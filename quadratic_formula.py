@@ -3,7 +3,9 @@ b = -6
 c = 9
 
 # TODO
-x1 = ...
-x2 = ...
+formula=(b**2-4*a*c)**0.5
+x1 = (-b+formula)/(2*a)
+x2 = (-b-formula)/(2*a)
 
 print(x1, x2)
+
